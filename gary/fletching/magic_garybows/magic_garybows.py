@@ -8,7 +8,7 @@ from PIL import Image
 from gary.generic.base import CustomAutoGui
 from gary.initialize.active_window import initialize_game_window
 
-DEFAULT_MAX_RUN_TIME = 7 * 60 * 60  # 4 hours
+DEFAULT_MAX_RUN_TIME = 7 * 60 * 60
 
 KEYBIND_FOR_PRESET = 'f2'
 KEYBIND_FOR_LOG = '4'
@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
         pyautogui.press('space', presses=random.randint(2, 4), interval=(random.randint(10, 15) / 100))
 
-        time.sleep(random.randint(sleep_length) / 10)
+        time.sleep(random.randint(*sleep_length) / 10)
 
         inventories_done += 1
         print("invetory ", inventories_done, " done")
