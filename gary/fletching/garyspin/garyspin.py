@@ -8,7 +8,7 @@ from PIL import Image
 from gary.generic.base import CustomAutoGui
 from gary.initialize.active_window import initialize_game_window
 
-DEFAULT_MAX_RUN_TIME = 5 * 60 * 60  # 4 hours
+DEFAULT_MAX_RUN_TIME = 5 * 60 * 60  # 5 hours
 
 KEYBIND_FOR_PRESET = 'f2'
 KEYBIND_FOR_SPELL = '2'
@@ -41,4 +41,4 @@ if __name__ == "__main__":
         time.sleep(random.randint(100, 120) / 10)
 
         inventories_done += 1
-        print("invetory ", inventories_done, " done")
+        print("inventory ", inventories_done, " done")
