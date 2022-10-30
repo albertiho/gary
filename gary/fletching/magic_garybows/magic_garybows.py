@@ -47,4 +47,4 @@ if __name__ == "__main__":
         time.sleep(random.randint(*sleep_length) / 10)
 
         inventories_done += 1
-        print("invetory ", inventories_done, " done")
+        print("inventory ", inventories_done, " done")
